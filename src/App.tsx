@@ -1,11 +1,13 @@
 import React from 'react';
+import User from "./user/User";
 
 
 function App() {
   return (
     <>
-    <a href="/shop">SHOP</a>
-    <a href="/shop/item.html">ITEN</a>
+      <User />
+      <a href="/shop"> SHOP</a>
+      < a href="/shop/item.html">ITEN</a>
     </>
   );
 }
